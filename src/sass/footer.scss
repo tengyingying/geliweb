@@ -1,0 +1,58 @@
+@charset "utf-8";
+$width:1200px;
+$fontsize:14px;
+$bgcolor:#fff;
+$color:#b2b2b2;
+.footer {
+    width: 100%;
+    ul {
+        width: $width;
+        margin: 0 auto;
+        background: $bgcolor;
+        border-top: 1px solid #e2e2e2;
+        overflow: hidden;
+        padding: 37px 90px 0 150px;
+        li {
+            width: 135px;
+            float: left;
+            line-height: 26px;
+            dl {
+                dt {
+                    width: 150px;
+                    height: 35px;
+                    line-height: 35px;
+                    font-size: $fontsize;
+                    font-weight: bold;
+                    font-family: Microsoft Yahei, Arial;
+                    margin: auto;
+                    color: #525252;
+                }
+                dd {
+                    width: 150px;
+                    margin: auto;
+                    color: $color;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .banquan {
+        width: $width;
+        margin: 0 auto;
+        background-color: $bgcolor;
+        padding: 66px 0 30px 21px;
+        box-sizing: border-box;
+        .bq {
+            color: $color;
+            .shangbiao {
+                width: 120px;
+                height: 40px;
+                background: $bgcolor;
+                img:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}

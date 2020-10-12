@@ -1,0 +1,124 @@
+@charset "utf-8";
+$width:1200px;
+$fontsize:14px;
+$margin:10px;
+.header {
+    width: $width;
+    height: 110px;
+    margin: 0 auto;
+    background: #fff;
+    .logo {
+        width: 210px;
+        float: left;
+        position: relative;
+        margin-top: $margin;
+        img {
+            max-width: 174px;
+            height: auto;
+            max-height: 80px;
+        }
+    }
+    .headerimg {
+        background-position: 0px 0px;
+        width: 482px;
+        height: 48px;
+        margin: 40px 0px 0px auto;
+        float: right;
+        background-image: url(../images/tree.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+.wid {
+    width: $width;
+    margin: auto;
+    overflow: hidden;
+    .mycar {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px !important;
+        h2 {
+            float: left;
+            font-size: 18px;
+            font-family: "微软雅黑", "宋体";
+            text-align: left;
+            height: 25px;
+            line-height: 25px;
+            i {
+                width: 34px;
+                height: 30px;
+                margin-right: 5px;
+                color: red;
+            }
+        }
+    }
+    .clear {
+        clear: both;
+        font-size: 0;
+        line-height: 0;
+        height: 0;
+    }
+    .carmain {
+        width: 100%;
+        .carmain_top {
+            height: 40px;
+            line-height: 40px;
+            width: 100%;
+            background-color: #cc0000;
+            margin: 10px auto;
+            ul {
+                color: #fff;
+                .xinxi {
+                    width: 500px;
+                    text-align: left;
+                    text-indent: 21px;
+                    input {
+                        vertical-align: middle;
+                    }
+                }
+                li {
+                    float: left;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+        .carmain_bottom {
+            height: 260px;
+            line-height: 50px;
+            width: 500px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 20px auto;
+            font-size: 20px;
+            text-align: center;
+            .demo {
+                display: inline-block;
+                width: auto;
+                margin: 0px 3px;
+                font-size: 20px;
+                text-align: center;
+                line-height: 50px;
+            }
+            .carmainbtn {
+                min-width: 92px;
+                background: #7abd54;
+                width: auto;
+                padding: 0px 25px;
+                text-align: center;
+                border: none;
+                font-family: Microsoft Yahei;
+                color: #fff;
+                border-radius: 2px;
+                cursor: pointer;
+                height: 35px;
+                line-height: 35px;
+                font-size: 16px;
+            }
+        }
+    }
+}

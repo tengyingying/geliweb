@@ -1,0 +1,33 @@
+@charset "utf-8";
+$width:1200px;
+$fontsize:14px;
+$margin:10px;
+.header {
+    width: $width;
+    height: 110px;
+    margin: 0 auto;
+    background: #fff;
+    .logo {
+        width: 210px;
+        float: left;
+        position: relative;
+        margin-top: $margin;
+        img {
+            max-width: 174px;
+            height: auto;
+            max-height: 80px;
+        }
+    }
+    .rightimg {
+        float: left;
+        width: 140px;
+        margin-right: 50px;
+        .hy {
+            line-height: 100px;
+            font-size: 24px;
+            i {
+                margin-right: $margin;
+            }
+        }
+    }
+}

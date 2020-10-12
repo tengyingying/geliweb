@@ -1,0 +1,171 @@
+@charset "utf-8";
+$width:1200px;
+$fontsize:14px;
+$headernavheight:35px;
+.nTab {
+    width: 980px;
+    margin: 10px auto;
+    height: auto;
+    overflow: hidden;
+    .tabtitle {
+        clear: both;
+        height: 45px;
+        line-height: 45px;
+        overflow: hidden;
+        background: #fafafa;
+        .mytab {
+            width: 300px;
+            margin: 0;
+            padding: 3px 0px 0px 0px;
+            overflow: hidden;
+            .normal {
+                cursor: pointer;
+                font-size: 14px;
+                text-align: center;
+                font-weight: bold;
+                float: left;
+                width: 140px;
+                height: 35px;
+                padding-bottom: 7px;
+            }
+            .normal:hover {
+                background-color: #FFF;
+                border: 1px solid #e8e8e8;
+                border-top: 2px solid #2daae4;
+                text-align: center;
+                font-size: 14px;
+                font-weight: bold;
+                color: #2daae4;
+                float: left;
+                width: 140px;
+                height: 35px;
+            }
+        }
+    }
+    .box {
+        min-height: 500px;
+        overflow: hidden;
+        text-align: left;
+        background: #fff;
+        margin: 0px auto;
+        padding: 20px;
+        margin-top: -1px;
+        border: 1px #e8e8e8 solid;
+        .xuanxiangka {
+            display: block;
+            .item {
+                width: 750px;
+                min-height: 200px;
+                float: left;
+                margin: 30px 10px;
+                ul {
+                    padding: 0px;
+                    margin: auto;
+                    li {
+                        margin: 0;
+                        padding-top: 9px;
+                        height: 60px;
+                        line-height: 34px;
+                        .regist_font {
+                            width: 170px;
+                            height: 35px;
+                            line-height: 35px;
+                            text-align: right;
+                            float: left;
+                            padding-right: 10px;
+                            .font_fe {
+                                color: #cc0000;
+                                line-height: 35px;
+                                text-align: right;
+                            }
+                        }
+                        .regist_item {
+                            position: relative;
+                            min-width: 280px;
+                            max-width: 650px;
+                            float: left;
+                            .passwordlength {
+                                width: 370px;
+                                height: 13px!important;
+                                line-height: 13px!important;
+                                position: absolute;
+                                left: 0px;
+                                top: 41px;
+                                text-align: center;
+                                display: none;
+                            }
+                            input {
+                                font-family: Microsoft Yahei;
+                                color: #474747;
+                                height: 35px;
+                                line-height: 35px;
+                                padding-left: 15px;
+                                border: 1px solid #e8e8e8;
+                                background: #fff;
+                                border-radius: 2px;
+                                width: 260px;
+                            }
+                            .yanzheng {
+                                font-family: Microsoft Yahei;
+                                color: #474747;
+                                height: 35px;
+                                line-height: 35px;
+                                padding-left: 15px;
+                                border: 1px solid #e8e8e8;
+                                background: #fff;
+                                border-radius: 2px;
+                                width: 130px;
+                                float: left;
+                                outline: none;
+                                vertical-align: middle;
+                            }
+                            .f1 {
+                                padding: 0px 15px;
+                                background: #efefef;
+                                color: #828282;
+                                text-align: center;
+                                border: none;
+                                font-family: Microsoft Yahei;
+                                border-radius: 2px;
+                                cursor: pointer;
+                                margin-left: 10px;
+                                height: 35px;
+                                line-height: 35px;
+                                float: left;
+                            }
+                        }
+                        .none {
+                            width: 270px;
+                            padding: 0 4px;
+                            height: 35px;
+                            line-height: 35px;
+                            float: left;
+                            margin-left: 2px;
+                            display: none;
+                        }
+                        .button_1 {
+                            width: 260px;
+                            margin-left: 180px;
+                            margin-top: 30px;
+                            padding: 0px 25px;
+                            background: #cc0000;
+                            text-align: center;
+                            border: none;
+                            font-family: Microsoft Yahei;
+                            color: #fff;
+                            border-radius: 2px;
+                            cursor: pointer;
+                            height: 40px;
+                            line-height: 40px;
+                        }
+                    }
+                    .mar {
+                        p {
+                            margin-left: 175px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

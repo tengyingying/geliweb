@@ -1,0 +1,58 @@
+.header-nav {
+  width: 100%;
+  height: 35px;
+  background: #eeeeee;
+  min-width: 1200px;
+}
+
+.header-nav .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-nav .wrapper .nav-left {
+  width: auto;
+  float: left;
+  line-height: 35px;
+  margin-left: 50px;
+}
+
+.header-nav .wrapper .nav-left .font-c {
+  margin-left: 10px;
+}
+
+.header-nav .wrapper .nav-left .font-c a {
+  color: #cc0000;
+}
+
+.header-nav .wrapper .nav-left .font-c .gang1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #c8c8c8;
+}
+
+.header-nav .wrapper .nav-right {
+  width: auto;
+  float: right;
+  text-align: right;
+  height: 35px;
+  line-height: 35px;
+}
+
+.header-nav .wrapper .nav-right .nav-list {
+  float: right;
+}
+
+.header-nav .wrapper .nav-right .nav-list li {
+  float: left;
+  height: 35px;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-nav .wrapper .nav-right .nav-list li .gang {
+  margin-left: 10px;
+  color: #c8c8c8;
+}

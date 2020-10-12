@@ -1,0 +1,277 @@
+@charset "utf-8";
+$width:1200px;
+$fontsize:14px;
+$headernavheight:35px;
+.content {
+    width: $width;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    .sousuo {
+        margin: 10px;
+        width: 100%;
+        overflow: hidden;
+        height: 58px;
+        line-height: 58px;
+        .iconfont {
+            margin-right: 10px;
+            font-size: 14px;
+            float: left;
+            display: inline-block;
+            width: auto;
+            margin: 0px 3px;
+        }
+        span {
+            float: left;
+            a {
+                color: #333333;
+                i {
+                    color: #cc0000;
+                    display: inline-block;
+                    width: auto;
+                    margin: 0px 3px;
+                }
+            }
+        }
+    }
+    .cont_left {
+        float: left;
+        width: 208px;
+        min-height: 600px;
+        border: 1px solid #E8E8E8;
+        overflow: hidden;
+        dl {
+            background: #fff;
+            overflow: hidden;
+            dt {
+                background: #f0f0f0;
+                text-indent: 5px;
+                height: 35px;
+                line-height: 35px;
+                border-bottom: 1px solid #e8e8e8;
+                text-align: left;
+                font-weight: bold;
+                font-size: 14px;
+                border-top: 1px solid #e8e8e8;
+                padding-left: 10px;
+            }
+            dd {
+                width: 100%;
+                text-indent: 20px;
+                overflow: hidden;
+                height: 35px;
+                line-height: 35px;
+                border-bottom: 1px solid #e8e8e8;
+                text-align: left;
+                font-weight: bold;
+                font-size: 14px;
+                background: #f9f9f9;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin: 0;
+                cursor: pointer;
+                span {
+                    text-indent: 20px;
+                    text-align: left;
+                    font-weight: bold;
+                    font-size: 14px;
+                    white-space: nowrap;
+                }
+                i {
+                    margin-right: 10px;
+                    float: right;
+                }
+            }
+            ul {
+                width: 208px;
+                overflow: hidden;
+                border-bottom: 1px solid #e8e8e8;
+                li {
+                    line-height: 30px;
+                    height: 30px;
+                    padding-left: 42px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .cont_right {
+        width: 970px;
+        float: right;
+        .shaixuan {
+            margin: 0 10px;
+            text-align: center;
+            border: 1px solid #E8E8E8;
+            background-color: #fafafa;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            table {
+                text-align: left;
+                font-size: 13px;
+                width: 970px;
+                tbody {
+                    tr {
+                        height: 30px;
+                        line-height: 30px;
+                        td {
+                            line-height: 30px;
+                            width: 100px;
+                            text-align: center;
+                            border-right: 1px solid #E8E8E8;
+                        }
+                        td:last-child {
+                            border-right: 0;
+                        }
+                        .td1 {
+                            width: auto;
+                            float: left;
+                            .btn {
+                                display: inline-block;
+                                width: 130px;
+                                cursor: pointer;
+                                margin: 4px 10px 0 10px;
+                                background-color: #cc0000;
+                                color: #FFF;
+                                height: 22px;
+                                line-height: 22px;
+                                text-align: center;
+                            }
+                            span {
+                                width: 130px;
+                                cursor: pointer;
+                                margin: 4px 10px 0 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main {
+            .xiaoliang {
+                border: 1px solid #E8E8E8;
+                width: 950px;
+                height: 35px;
+                overflow: hidden;
+                margin: auto;
+                background-color: #fafafa;
+                .left {
+                    float: left;
+                    ul {
+                        li {
+                            width: auto;
+                            height: 35px;
+                            line-height: 35px;
+                            overflow: hidden;
+                            text-align: center;
+                            margin: 0px;
+                            display: block;
+                            float: left;
+                            padding: 0px 15px 0px 15px;
+                            cursor: pointer;
+                            border-right: 1px solid #e8e8e8;
+                            .iconfont {
+                                top: 0;
+                                margin: 0 5px 0;
+                                float: right;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    float: right;
+                    ul {
+                        li {
+                            width: auto;
+                            height: 35px;
+                            line-height: 35px;
+                            overflow: hidden;
+                            text-align: center;
+                            margin: 0px;
+                            display: block;
+                            padding: 0px 15px 0px 15px;
+                            float: left;
+                            cursor: pointer;
+                            border-right: 1px solid #e8e8e8;
+                            .num {
+                                margin-left: 10px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .main_list {
+                min-height: 600px;
+                margin: auto;
+                .list_box {
+                    a {
+                        display: block;
+                        width: 230px;
+                        height: 370px;
+                        float: left;
+                        border-top: 1px solid #fff;
+                        border-left: 1px solid #fff;
+                        border-right: 1px solid #fff;
+                        border-bottom: 1px dotted #e8e8e8;
+                        margin: 5px 0;
+                    }
+                    div {
+                        width: 230px;
+                        height: 370px;
+                        float: left;
+                        em {
+                            display: block;
+                            width: 220px;
+                            overflow: hidden;
+                            clear: both;
+                            margin: auto;
+                            height: 220px;
+                            text-align: center;
+                            background: #fff;
+                            img {
+                                width: 220px;
+                                height: 220px;
+                            }
+                        }
+                        p {
+                            text-align: left;
+                            padding-left: 5px;
+                            line-height: 24px;
+                            font-size: 13px;
+                            background: #fff;
+                            width: 230px;
+                            color: #747474;
+                            height: 48px;
+                        }
+                        span {
+                            width: 230px;
+                            height: 30px;
+                            text-align: left;
+                            padding-left: 5px;
+                            line-height: 30px;
+                            margin: auto;
+                            font-size: 14px;
+                            background: #fff;
+                            white-space: nowrap;
+                            display: block;
+                        }
+                        b {
+                            color: #cc0000;
+                            font-size: 16px;
+                        }
+                        strong {
+                            width: 27px;
+                            height: 17px;
+                            background-color: red;
+                            color: #fff;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

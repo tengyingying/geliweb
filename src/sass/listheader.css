@@ -1,0 +1,369 @@
+.header {
+  width: 1200px;
+  height: 110px;
+  margin: 0 auto;
+  background: #f5f5f5;
+}
+
+.header .header-logo {
+  width: 210px;
+  float: left;
+  position: relative;
+  margin-top: 10px;
+}
+
+.header .header-logo img {
+  height: auto;
+  max-width: 174px;
+  max-height: 80px;
+}
+
+.header .header-select {
+  width: 740px;
+  float: left;
+  margin-left: 28px;
+}
+
+.header .header-select .header-select-top .header-select-top-select {
+  display: inline-block;
+  width: 564px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #cc0000;
+  outline: 0;
+  margin-top: 26px;
+  float: left;
+  position: relative;
+}
+
+.header .header-select .header-select-top .header-select-top-select .xiala {
+  width: 68px;
+  height: 38px;
+  box-sizing: border-box;
+  border-radius: 20px 0 0 20px;
+  line-height: 38px;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+  border-right: 1px solid #B7B7B7;
+}
+
+.header .header-select .header-select-top .header-select-top-select .xiala span {
+  margin-left: 5px;
+  display: block;
+  width: 100%;
+}
+
+.header .header-select .header-select-top .header-select-top-select .select-input {
+  background-color: #f5f5f5;
+  width: 380px;
+  height: 38px;
+  box-sizing: border-box;
+  padding: 9px 0 9px 0;
+  margin-left: 90px;
+  border: none;
+  color: #323232;
+}
+
+.header .header-select .header-select-top .header-select-top-select .select-btn {
+  outline: none;
+  cursor: pointer;
+  width: 70px;
+  height: 38px;
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #cc0000;
+  border: none;
+  border-radius: 20px;
+  font-family: Microsoft Yahei, Arial;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.header .header-select .header-select-top .header-select-top-select .select-btn .sousuo {
+  font-size: 19px;
+  color: #fff;
+}
+
+.header .header-select .header-select-top .header-select-img {
+  margin: 26px 0 0 30px;
+  height: 40px;
+}
+
+.header .header-select .header-select-bottom {
+  width: 640px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  margin-left: 18px;
+}
+
+.header .header-select .header-select-bottom a {
+  color: #747474;
+  outline: none;
+  text-decoration: none;
+  word-wrap: break-word;
+  display: inline;
+  margin-right: 22px;
+  overflow: hidden;
+}
+
+.header .header-shopcar {
+  width: 140px;
+  float: right;
+  margin-right: 50px;
+}
+
+.header .header-shopcar .shopcar-btn {
+  width: 100%;
+  height: 40px;
+  float: right;
+  line-height: 40px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #e4e4e4;
+  color: #cc0000;
+  margin-top: 26px;
+  position: relative;
+}
+
+.header .header-shopcar .shopcar-btn .iconshopcar {
+  left: 0;
+  font-size: 18px;
+  color: #666;
+  margin-right: 10px;
+}
+
+.header .header-shopcar .shopcar-btn .shopcar {
+  color: #666;
+  cursor: pointer;
+  margin-left: 5px;
+  line-height: 38px;
+}
+
+.twonav {
+  width: 100%;
+  height: 36px;
+}
+
+.twonav .wrapper {
+  width: 1200px;
+  margin: auto;
+  font-family: "Verdana", "Arial", Microsoft Yahei, Arial;
+  font-weight: bold;
+  height: 36px;
+  line-height: 36px;
+}
+
+.twonav .wrapper .twonav-left {
+  background: #cc0000;
+  width: 174px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  position: relative;
+}
+
+.twonav .wrapper .twonav-left .all-select {
+  padding-left: 32px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.twonav .wrapper .twonav-left .all-select a {
+  font-size: 12px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.twonav .wrapper .twonav-left .all-select a .icon-all-select {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 174px;
+  height: auto;
+  border-top: none;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul {
+  display: none;
+  width: 174px;
+  height: 450px;
+  overflow: hidden;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li {
+  cursor: pointer;
+  min-height: 34px;
+  color: #faf8f9;
+  position: relative;
+  z-index: 10;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li .liebiao {
+  display: block;
+  cursor: pointer;
+  line-height: 34px;
+  height: 34px;
+  color: #faf8f9;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li .liebiao h3 {
+  line-height: 34px;
+  height: 34px;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li .liebiao h3 .icontwonav {
+  display: inline-block;
+  top: 0;
+  left: 10px;
+  position: absolute;
+  width: auto;
+  font-size: 16px;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li .liebiao h3 a {
+  color: #faf8f9;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li .liebiao h3 .jiantou {
+  top: 0;
+  right: 10px;
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  margin: 0 3px;
+  font-size: 10px;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li:hover {
+  background: #fff;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li:hover .liebiao {
+  color: #ff0000;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul li:hover .liebiao a {
+  color: #ff0000;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul .sannav {
+  width: auto;
+  min-height: 450px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #d3d3d3;
+  background: #fff;
+  position: absolute;
+  left: 174px;
+  top: 0;
+  z-index: 10;
+  display: none;
+  box-shadow: 6px 3px 8px 0 rgba(195, 183, 183, 0.3);
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul .sannav .sannav-neirong {
+  height: auto;
+  float: left;
+  width: 672px;
+  min-width: 450px;
+  padding: 28px 80px 28px 0;
+  box-sizing: border-box;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul .sannav .sannav-neirong dl {
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul .sannav .sannav-neirong dl dt {
+  float: left;
+  width: 120px;
+  line-height: 22px;
+  text-align: right;
+  font-size: 14px;
+  color: #424242;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul .sannav .sannav-neirong dl dt .iconsan {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul .sannav .sannav-neirong dl dd {
+  padding-top: 1px;
+  margin-left: 152px;
+  max-width: 442px;
+  overflow: hidden;
+  border-bottom: 1px dotted #979797;
+  font-size: 22px;
+  color: #757575;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul .sannav .sannav-neirong dl dd b {
+  font-weight: normal;
+  float: left;
+  line-height: normal;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #757575;
+  margin: 0 30px 14px 0;
+}
+
+.twonav .wrapper .twonav-left .twonav-left-xiala ul:hover .sannav {
+  display: block;
+}
+
+.twonav .wrapper .twonav-left:hover ul {
+  display: block;
+}
+
+.twonav .wrapper .twonav-right {
+  height: 36px;
+  line-height: 36px;
+  margin-left: 10px;
+  float: left;
+}
+
+.twonav .wrapper .twonav-right ul {
+  float: left;
+}
+
+.twonav .wrapper .twonav-right ul li {
+  text-align: center;
+  float: left;
+  margin-right: 30px;
+}
+
+.twonav .wrapper .twonav-right ul li a {
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #424242;
+  font-weight: normal;
+}

@@ -1,0 +1,107 @@
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.content .auto {
+  position: relative;
+  overflow: auto;
+  background: #fff;
+  box-shadow: none;
+  border: 1px solid #E8E8E8;
+  width: 1198px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.content .auto .neirong {
+  border: none;
+  background: #fff;
+  width: 1160px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content .auto .neirong .auto_biaoti {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  margin: 10px;
+}
+
+.content .auto .neirong .auto_biaoti span {
+  font-size: 16px;
+  font-family: Microsoft Yahei, Arial;
+  font-weight: bold;
+  text-align: left;
+  line-height: 40px;
+}
+
+.content .auto .neirong .auto_biaoti span a {
+  color: #666;
+  font-size: 16px;
+  font-family: Microsoft Yahei, Arial;
+  font-weight: bold;
+  text-align: left;
+}
+
+.content .auto .neirong .auto_left {
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin-left: 10px;
+}
+
+.content .auto .neirong .auto_left .fangda {
+  width: 398px;
+  height: 398px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  background: pink;
+}
+
+.content .auto .neirong .auto_left .auto_xiao {
+  position: relative;
+  height: 82px;
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 6px 5px;
+  width: 390px;
+  overflow: hidden;
+  float: left;
+}
+
+.content .auto .neirong .auto_left .auto_xiao .auto_xiao_tu {
+  height: 82px;
+  width: 360px;
+  overflow: hidden;
+  margin-left: 10px;
+  float: left;
+}
+
+.content .auto .neirong .auto_left .auto_xiao .auto_xiao_tu li {
+  height: 82px;
+  width: 88px;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+  background: lightblue;
+}
+
+.content .auto .neirong .auto_left .fangdahou {
+  width: 472.362px;
+  height: 422.111px;
+  top: 80px;
+  left: 430px;
+  position: absolute;
+  border: 1px solid #959595;
+  overflow: hidden;
+  z-index: 10;
+  background: plum;
+}
