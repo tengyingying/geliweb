@@ -1,3 +1,8 @@
+@charset "UTF-8";
+body {
+  background: #fff;
+}
+
 .content {
   width: 1200px;
   margin: 0 auto;
@@ -201,6 +206,11 @@
   float: right;
 }
 
+.content .cont_right .main .xiaoliang .left ul li:hover {
+  background: #cc0000;
+  color: #fff;
+}
+
 .content .cont_right .main .xiaoliang .right {
   float: right;
 }
@@ -224,58 +234,62 @@
   margin-right: 10px;
 }
 
+.content .cont_right .main .xiaoliang .right ul li:hover {
+  background: #cc0000;
+  color: #fff;
+}
+
 .content .cont_right .main .main_list {
   min-height: 600px;
   margin: auto;
+  padding: 0 10px;
 }
 
-.content .cont_right .main .main_list .list_box a {
+.content .cont_right .main .main_list .list_box li {
+  width: 230px;
+  height: 370px;
+  float: left;
+  background: #fff;
+  margin-top: 5px;
+  border-bottom: 1px dotted #e8e8e8;
+}
+
+.content .cont_right .main .main_list .list_box li a {
   display: block;
   width: 230px;
   height: 370px;
-  float: left;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
-  border-bottom: 1px dotted #e8e8e8;
-  margin: 5px 0;
 }
 
-.content .cont_right .main .main_list .list_box div {
-  width: 230px;
-  height: 370px;
-  float: left;
-}
-
-.content .cont_right .main .main_list .list_box div em {
+.content .cont_right .main .main_list .list_box li a em {
   display: block;
   width: 220px;
   overflow: hidden;
   clear: both;
-  margin: auto;
+  margin: 0 5px;
   height: 220px;
   text-align: center;
   background: #fff;
 }
 
-.content .cont_right .main .main_list .list_box div em img {
+.content .cont_right .main .main_list .list_box li a em img {
   width: 220px;
   height: 220px;
 }
 
-.content .cont_right .main .main_list .list_box div p {
+.content .cont_right .main .main_list .list_box li a p {
   text-align: left;
   padding-left: 5px;
   line-height: 24px;
   font-size: 13px;
   background: #fff;
-  width: 230px;
+  width: 220px;
   color: #747474;
   height: 48px;
+  margin: 0 5px;
 }
 
-.content .cont_right .main .main_list .list_box div span {
-  width: 230px;
+.content .cont_right .main .main_list .list_box li a .geli {
+  width: 220px;
   height: 30px;
   text-align: left;
   padding-left: 5px;
@@ -285,17 +299,47 @@
   background: #fff;
   white-space: nowrap;
   display: block;
+  margin: 0 5px;
 }
 
-.content .cont_right .main .main_list .list_box div b {
+.content .cont_right .main .main_list .list_box li a b {
   color: #cc0000;
   font-size: 16px;
+  margin: 0 5px;
 }
 
-.content .cont_right .main .main_list .list_box div strong {
+.content .cont_right .main .main_list .list_box li a strong {
   width: 27px;
-  height: 17px;
+  height: 14px;
+  line-height: 14px;
   background-color: red;
   color: #fff;
   font-weight: 500;
+}
+
+.content .cont_right .main .main_list .list_box li a .span {
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  display: block;
+  margin: 0 5px;
+}
+
+.content .cont_right .main .main_list .list_box li a .span i {
+  color: red;
+}
+
+.content .cont_right .main .main_list .list_box li a .car {
+  color: #cc0000;
+  height: 20px;
+  font-size: 12px;
+  font-family: "宋体 Std L";
+  text-align: right;
+  display: block;
+  margin: 0 5px;
+}
+
+.content .cont_right .main .main_list .list_box li li:hover {
+  box-shadow: 0 2px 5px #ddd;
+  border: 1px solid #E8E8E8;
 }

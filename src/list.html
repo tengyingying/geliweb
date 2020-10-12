@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="../font_m7edl57n4ds/iconfont.css">
     <link rel="stylesheet" href="sass/reset.css">
     <link rel="stylesheet" href="sass/list.css">
+    <link rel="stylesheet" href="sass/pagination.css">
     <link rel="stylesheet" href="sass/listheader.css">
     <link rel="stylesheet" href="sass/footer.css">
     <link rel="stylesheet" href="sass/header-nav.css">
     <link href="../src/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <script src="js/require.js" defer async="true" data-main="js/main.js"></script>
+
 </head>
 
 <body>
@@ -131,19 +132,19 @@
         <div class="sousuo">
             <i class="iconfont">&#xe65f;</i>
             <span>
-                <a href="">搜索出来的商品共<i class="iconnum">22</i>件</a>
+                <a href="">搜索出来的商品共<i class="iconnum">29</i>件</a>
             </span>
         </div>
         <div class="cont_left">
             <dl>
                 <dt class="suoyou">所有类目</dt>
-                <dd class="xiala"> <span>冰箱</span><i class="iconfont">&#xe63c;</i></dd>
+                <dd class="xiala" title="冰箱"> <span>冰箱</span><i class="iconfont">&#xe63c;</i></dd>
                 <ul>
-                    <li>>双门</li>
-                    <li>>三门</li>
-                    <li>>多门</li>
-                    <li>>冰柜</li>
-                    <li>>对开</li>
+                    <li title="双门">>双门</li>
+                    <li title="三门">>三门</li>
+                    <li title="多门">>多门</li>
+                    <li title="冰柜">>冰柜</li>
+                    <li title="对开">>对开</li>
                 </ul>
             </dl>
         </div>
@@ -163,15 +164,15 @@
                 <div class="xiaoliang">
                     <div class="left">
                         <ul>
-                            <li>销售数量<i class="iconfont">&#xe63c;</i></li>
+                            <li class="paixu">默认排序<i class="iconfont">&#xe63c;</i></li>
                             <li>评价分数<i class="iconfont">&#xe63c;</i></li>
-                            <li>上架时间<i class="iconfont">&#xe63c;</i></li>
-                            <li>商品价格<i class="iconfont">&#xe63c;</i></li>
+                            <li class="paixu">价格升序<i class="iconfont">&#xe63c;</i></li>
+                            <li class="paixu">价格降序<i class="iconfont">&#xe63c;</i></li>
                         </ul>
                     </div>
                     <div class="right">
                         <ul>
-                            <li>共<i class="num">22</i>个商品</li>
+                            <li>共<i class="num">29</i>个商品</li>
                             <li><b>1</b>/2</li>
                             <li>上一页</li>
                             <li>下一页</li>
@@ -179,13 +180,18 @@
                     </div>
                 </div>
                 <div class="main_list">
-                    <div class="list_box">
+                    <ul class="list_box">
 
-                    </div>
+                    </ul>
                 </div>
             </div>
 
 
+        </div>
+    </div>
+    <!--分页-->
+    <div class="pagelist">
+        <div class="m-style page">
         </div>
     </div>
     <!--售后-->
@@ -227,6 +233,7 @@
                 </dl>
             </li>
         </ul>
+
         <div class="banquan">
             <div class="bq">
                 <div>珠海格力电器股份有限公司版权所有 粤ICP备05006515号</div>
@@ -236,6 +243,8 @@
     </div>
 </body>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="script/jquery.lazyload.js"></script>
+<script src="script/jquery.pagination.js"></script>
 <script src="script/list.js"></script>
 
 </html>

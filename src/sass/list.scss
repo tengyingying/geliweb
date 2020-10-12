@@ -2,6 +2,10 @@
 $width:1200px;
 $fontsize:14px;
 $headernavheight:35px;
+body {
+    background: #fff;
+}
+
 .content {
     width: $width;
     margin: 0 auto;
@@ -178,6 +182,10 @@ $headernavheight:35px;
                                 float: right;
                             }
                         }
+                        li:hover {
+                            background: #cc0000;
+                            color: #fff;
+                        }
                     }
                 }
                 .right {
@@ -200,74 +208,103 @@ $headernavheight:35px;
                                 margin-right: 10px;
                             }
                         }
+                        li:hover {
+                            background: #cc0000;
+                            color: #fff;
+                        }
                     }
                 }
             }
             .main_list {
                 min-height: 600px;
                 margin: auto;
+                padding: 0 10px;
                 .list_box {
-                    a {
-                        display: block;
+                    li {
                         width: 230px;
                         height: 370px;
                         float: left;
-                        border-top: 1px solid #fff;
-                        border-left: 1px solid #fff;
-                        border-right: 1px solid #fff;
+                        background: #fff;
+                        margin-top: 5px;
                         border-bottom: 1px dotted #e8e8e8;
-                        margin: 5px 0;
-                    }
-                    div {
-                        width: 230px;
-                        height: 370px;
-                        float: left;
-                        em {
+                        a {
                             display: block;
-                            width: 220px;
-                            overflow: hidden;
-                            clear: both;
-                            margin: auto;
-                            height: 220px;
-                            text-align: center;
-                            background: #fff;
-                            img {
+                            width: 230px;
+                            height: 370px;
+                            em {
+                                display: block;
                                 width: 220px;
+                                overflow: hidden;
+                                clear: both;
+                                margin: 0 5px;
                                 height: 220px;
+                                text-align: center;
+                                background: #fff;
+                                img {
+                                    width: 220px;
+                                    height: 220px;
+                                }
+                            }
+                            p {
+                                text-align: left;
+                                padding-left: 5px;
+                                line-height: 24px;
+                                font-size: 13px;
+                                background: #fff;
+                                width: 220px;
+                                color: #747474;
+                                height: 48px;
+                                margin: 0 5px;
+                            }
+                            .geli {
+                                width: 220px;
+                                height: 30px;
+                                text-align: left;
+                                padding-left: 5px;
+                                line-height: 30px;
+                                margin: auto;
+                                font-size: 14px;
+                                background: #fff;
+                                white-space: nowrap;
+                                display: block;
+                                margin: 0 5px;
+                            }
+                            b {
+                                color: #cc0000;
+                                font-size: 16px;
+                                margin: 0 5px;
+                            }
+                            strong {
+                                width: 27px;
+                                height: 14px;
+                                line-height: 14px;
+                                background-color: red;
+                                color: #fff;
+                                font-weight: 500;
+                            }
+                            .span {
+                                font-size: 14px;
+                                font-weight: 500;
+                                height: 20px;
+                                display: block;
+                                margin: 0 5px;
+                                i {
+                                    color: red;
+                                }
+                            }
+                            .car {
+                                color: #cc0000;
+                                height: 20px;
+                                font-size: 12px;
+                                font-family: "宋体 Std L";
+                                text-align: right;
+                                display: block;
+                                margin: 0 5px;
                             }
                         }
-                        p {
-                            text-align: left;
-                            padding-left: 5px;
-                            line-height: 24px;
-                            font-size: 13px;
-                            background: #fff;
-                            width: 230px;
-                            color: #747474;
-                            height: 48px;
-                        }
-                        span {
-                            width: 230px;
-                            height: 30px;
-                            text-align: left;
-                            padding-left: 5px;
-                            line-height: 30px;
-                            margin: auto;
-                            font-size: 14px;
-                            background: #fff;
-                            white-space: nowrap;
-                            display: block;
-                        }
-                        b {
-                            color: #cc0000;
-                            font-size: 16px;
-                        }
-                        strong {
-                            width: 27px;
-                            height: 17px;
-                            background-color: red;
-                            color: #fff;
-                            font-weight: 500;
+                        li:hover {
+                            box-shadow: 0 2px 5px #ddd;
+                            border: 1px solid #E8E8E8;
                         }
                     }
                 }
