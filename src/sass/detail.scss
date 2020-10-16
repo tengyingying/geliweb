@@ -52,10 +52,11 @@ body {
             .wrap {
                 position: relative;
                 float: left;
-                margin-left: 10px;
                 #spic {
                     width: 400px;
                     height: 400px;
+                    float: left;
+                    position: relative;
                     img {
                         width: 400px;
                         height: 400px;
@@ -97,8 +98,9 @@ body {
                     overflow: hidden;
                     a {
                         float: left;
-                        width: 10px;
+                        width: 20px;
                         height: 54px;
+                        font-size: 14px;
                         border: 1px solid #ccc;
                         text-decoration: none;
                         line-height: 56px;
@@ -204,18 +206,6 @@ body {
                         }
                     }
                 }
-                .fangdahou {
-                    width: 472.362px;
-                    height: 422.111px;
-                    top: 80px;
-                    left: 430px;
-                    position: absolute;
-                    border: 1px solid #959595;
-                    overflow: hidden;
-                    z-index: 10;
-                    background: plum;
-                    display: none;
-                }
             }
             .auto_right {
                 margin-top: 70px;
@@ -305,6 +295,43 @@ body {
                         .l2 {
                             margin-left: 10px;
                         }
+                    }
+                }
+            }
+            .goodsinfo-word {
+                width: 400px;
+                height: 500px;
+                float: left;
+                margin-left: 20px;
+                .p-name {
+                    font-size: 20px;
+                    width: 400px;
+                    margin: 10px 0;
+                }
+                .p-price {
+                    color: #cc0000;
+                    font-size: 16px;
+                    line-height: 16px;
+                    margin: 10px 0;
+                }
+                .p-btn {
+                    input {
+                        display: block;
+                        width: 100px;
+                        height: 30px;
+                        margin: 10px 0;
+                    }
+                    a {
+                        display: block;
+                        width: 80px;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #fff;
+                        background: #cc0000;
+                        border-radius: 5px;
+                        margin: 10px 0;
                     }
                 }
             }

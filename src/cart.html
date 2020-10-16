@@ -65,7 +65,7 @@
             <div class="carmain_top">
                 <ul>
                     <li class="xinxi">
-                        <input type="checkbox">全选 商品信息
+                        <input type="checkbox" checked="" class="allsel">全选 商品信息
                     </li>
                     <li style="width: 150px">单价</li>
                     <li style="width: 95px">数量</li>
@@ -73,10 +73,48 @@
                     <li style="width: 120px">操作</li>
                 </ul>
             </div>
-            <div class="carmain_bottom">
-                <i class="demo">亲，购物车内暂时没有商品...</i><br>
-                <button class="carmainbtn">去逛逛>></button>
+            <div class="item-list">
+                <!-- <div class="carmain_bottom">
+                    <i class="demo">亲，购物车内暂时没有商品...</i><br>
+                    <button class="carmainbtn">去逛逛>></button>
+                </div> -->
+
             </div>
+            <div id="cart-floatbar">
+                <div class="left">
+                    <div class="select-all">
+                        <div class="cart-checkbox">
+                            <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                        </div>
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:void(0)">删除选中的商品</a>
+                    </div>
+                </div>
+                <div class="zhong">
+                    <div class="jiesuan">“去结算”查看满减/折扣优惠</div>
+                </div>
+                <div class="right">
+                    <div class="toolbar-right">
+
+                        <div class="amount-sum">
+                            已选择
+                            <em>0</em> 件商品
+                            <b></b>
+                        </div>
+                        <div class="price-sum">
+                            <span class="txt">总价（不含运费）：</span>
+                            <span class="totalprice">￥0.00</span>
+
+                        </div>
+                        <div class="btn">
+                            <span>￥去结算</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
     <!--售后-->
@@ -126,5 +164,10 @@
         </div>
     </div>
 </body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.0/jquery.cookie.min.js"></script>
+
+<script src="script/cart.js"></script>
 
 </html>

@@ -10,28 +10,30 @@
   height: 45px;
   line-height: 45px;
   overflow: hidden;
-  background: #fafafa;
+  background: #f5f5f5;
 }
 
 .nTab .tabtitle .mytab {
   width: 300px;
   margin: 0;
+  height: 42px;
   padding: 3px 0px 0px 0px;
   overflow: hidden;
 }
 
 .nTab .tabtitle .mytab .normal {
-  cursor: pointer;
   font-size: 14px;
   text-align: center;
   font-weight: bold;
   float: left;
   width: 140px;
-  height: 35px;
-  padding-bottom: 7px;
+  height: 45px;
+  line-height: 45px;
+  background: #f5f5f5;
+  border: 0;
 }
 
-.nTab .tabtitle .mytab .normal:hover {
+.nTab .tabtitle .mytab .active {
   background-color: #FFF;
   border: 1px solid #e8e8e8;
   border-top: 2px solid #2daae4;
@@ -41,7 +43,8 @@
   color: #2daae4;
   float: left;
   width: 140px;
-  height: 35px;
+  height: 42px;
+  line-height: 42px;
 }
 
 .nTab .box {

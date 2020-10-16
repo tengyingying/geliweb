@@ -69,7 +69,7 @@
         <div class="box">
             <form action="" method="POST">
                 <div class="xuanxiangka">
-                    <div class="item" style="display: block">
+                    <div class="item active" style="display: block">
                         <ul>
                             <li>
                                 <span class="regist_font"><i class="font_fe">*</i>手机:</span>
@@ -120,68 +120,71 @@
                         </ul>
                     </div>
                     <div class="item" style="display:none ">
-                        <li>
-                            <span class="regist_font"><i class="font_fe">*</i>用户名:</span>
-                            <div class="regist_item">
-                                <input type="text" id="userzhuce" name="userzhuce" class="userzhuce" placeholder="请输入用户名" maxlength="11">
-                            </div>
-                        </li>
-                        <li>
-                            <span class="regist_font"><i class="font_fe">*</i>邮箱:</span>
-                            <div class="regist_item">
-                                <input type="text" id="emailzhuce" name="emailzhuce" class="emailzhuce" placeholder="请输入邮箱" maxlength="11">
+                        <ul>
+                            <li>
+                                <span class="regist_font"><i class="font_fe">*</i>用户名:</span>
+                                <div class="regist_item">
+                                    <input type="text" id="userzhuce" name="userzhuce" class="username" placeholder="请输入用户名" maxlength="11">
+                                </div>
+                            </li>
+                            <li>
+                                <span class="regist_font"><i class="font_fe">*</i>邮箱:</span>
+                                <div class="regist_item">
+                                    <input type="text" id="emailzhuce" name="emailzhuce" class="emailzhuce" placeholder="请输入邮箱" maxlength="11">
 
-                            </div>
-                            <div class="none">
-                                完成验证后可以用邮箱登录和找回密码
-                            </div>
-                        </li>
-                        <li>
-                            <span class="regist_font"><i class="font_fe">*</i>手机:</span>
-                            <div class="regist_item">
-                                <input type="text" id="phonezhuce" name="phonezhuce" class="phonezhuce" placeholder="请输入手机" maxlength="11">
+                                </div>
+                                <div class="none">
+                                    完成验证后可以用邮箱登录和找回密码
+                                </div>
+                            </li>
+                            <li>
+                                <span class="regist_font"><i class="font_fe">*</i>手机:</span>
+                                <div class="regist_item">
+                                    <input type="text" id="phonezhuce" name="phonezhuce" class="phonezhuce" placeholder="请输入手机" maxlength="11">
 
-                            </div>
-                            <div class="none">
-                                完成验证后可以用手机号登录和找回密码
-                            </div>
-                        </li>
-                        <li class="pr">
-                            <span class="regist_font"><i class="font_fe">*</i>请设置密码:</span>
-                            <div class="regist_item">
-                                <input type="password" id="paddzhuce" name="passzhuce" class="passzhuce" placeholder="请输入密码" maxlength="20">
-                                <div class="passwordlength">
-                                    <span class="l1">弱</span>
-                                    <span class="l2">中</span>
-                                    <span class="l3">强</span>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="regist_font"><i class="font_fe">*</i>请确认密码:</span>
-                            <div class="regist_item">
-                                <input type="password" id="paddqueren" name="passqueren" class="passqueren" placeholder="请再次输入密码" maxlength="20">
                                 <div class="none">
-                                    两次输入密码不一致
+                                    完成验证后可以用手机号登录和找回密码
                                 </div>
-                            </div>
-                        </li>
-                        <li class="pr">
-                            <span class="regist_font"><i class="font_fe">*</i>手机验证码:</span>
-                            <div class="regist_item">
-                                <input type="text" id="yanzheng" name="yanzheng" class="yanzheng" placeholder="请输入手机验证码" maxlength="6">
-                                <button type="button" class="f1">获取短信验证码</button>
-                                <div class="none">
-                                    验证码不正确
+                            </li>
+                            <li class="pr">
+                                <span class="regist_font"><i class="font_fe">*</i>请设置密码:</span>
+                                <div class="regist_item">
+                                    <input type="password" id="passzhuce" name="passzhuce" class="passzhuce" placeholder="请输入密码" maxlength="20">
+                                    <div class="passwordlength">
+                                        <span class="l1">弱</span>
+                                        <span class="l2">中</span>
+                                        <span class="l3">强</span>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="mar">
-                            <p><input type="checkbox" checked="checked">同意《格力官方商城用户注册协议》和《隐私声明》</p>
-                        </li>
-                        <li>
-                            <button type="button" class="button_1" loadmsg="正在提交...">同意协议并注册</button>
-                        </li>
+                            </li>
+                            <li>
+                                <span class="regist_font"><i class="font_fe">*</i>请确认密码:</span>
+                                <div class="regist_item">
+                                    <input type="password" id="passqueren" name="passqueren" class="passqueren" placeholder="请再次输入密码" maxlength="20">
+                                    <div class="none">
+                                        两次输入密码不一致
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="pr">
+                                <span class="regist_font"><i class="font_fe">*</i>手机验证码:</span>
+                                <div class="regist_item">
+                                    <input type="text" id="yanzheng" name="yanzheng" class="yanzheng" placeholder="请输入手机验证码" maxlength="6">
+                                    <button type="button" class="f1">获取短信验证码</button>
+                                    <div class="none">
+                                        验证码不正确
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mar">
+                                <p><input type="checkbox" checked="checked">同意《格力官方商城用户注册协议》和《隐私声明》</p>
+                            </li>
+                            <li>
+                                <button type="button" class="button_1" loadmsg="正在提交...">同意协议并注册</button>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </form>
@@ -235,16 +238,11 @@
         </div>
     </div>
 </body>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="script/registry.js"></script>
 <script>
-    ! function($) {
-        const btns = $('button');
-        const items = $('.item');
-        btns.on('click', function() {
-            $(this).addClass('active').siblings('button').removeClass('active');
-            items.eq($(this).index()).show().siblings('.item').hide();
-        });
-    }(jQuery);
 </script>
 
 </html>

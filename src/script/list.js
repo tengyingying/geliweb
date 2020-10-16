@@ -1,17 +1,17 @@
 //渲染
 ;
 ! function($) {
-    let array_default = [];
-    let array = [];
-    let prev = null;
-    let next = null;
+    var array_default = [];
+    var array = [];
+    var prev = null;
+    var next = null;
     const list = $('.main_list .list_box');
     $.ajax({
         url: 'http://192.168.11.65/h5/umyjs/taobaoitem_test/php/listdata.php',
         dataType: 'json'
     }).done(function(data) {
         console.log(data);
-        let strhtml = '';
+        var strhtml = '';
         $.each(data, function(index, value) {
             strhtml += `
            
@@ -53,7 +53,7 @@
                 },
                 dataType: 'json'
             }).done(function(data) {
-                let strhtml = '';
+                var strhtml = '';
                 $.each(data, function(index, value) {
                     strhtml += `
             
@@ -91,12 +91,12 @@
     });
     // 价格升序
     $('.paixu').eq(1).on('click', function() {
-        for (let i = 0; i < array.length - 1; i++) {
-            for (let j = 0; j < array.length - i - 1; j++) {
+        for (var i = 0; i < array.length - 1; i++) {
+            for (var j = 0; j < array.length - i - 1; j++) {
                 prev = parseFloat(array[j].find('.jiage').html().substring(1));
                 next = parseFloat(array[j + 1].find('.jiage').html().substring(1));
                 if (prev > next) {
-                    let temp = array[j];
+                    var temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
                 }
@@ -110,12 +110,12 @@
     });
     //价格降序
     $('.paixu').eq(2).on('click', function() {
-        for (let i = 0; i < array.length - 1; i++) {
-            for (let j = 0; j < array.length - i - 1; j++) {
+        for (var i = 0; i < array.length - 1; i++) {
+            for (var j = 0; j < array.length - i - 1; j++) {
                 prev = parseFloat(array[j].find('.jiage').html().substring(1));
                 next = parseFloat(array[j + 1].find('.jiage').html().substring(1));
                 if (prev < next) {
-                    let temp = array[j];
+                    var temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
                 }

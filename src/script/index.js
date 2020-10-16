@@ -1,13 +1,13 @@
 //渲染
 ;
 ! function($) {
-    const list = $('.floorlist ul');
+    var list = $('.floorlist ul');
     $.ajax({
         url: 'http://192.168.11.65/h5/umyjs/taobaoitem_test/php/list.php',
         dataType: 'json'
     }).done(function(data) {
         console.log(data);
-        let strhtml = '';
+        var strhtml = '';
         $.each(data, function(index, value) {
             strhtml += `
             <a href="detail.html">
@@ -30,10 +30,10 @@
 
 //楼梯
 function scroll() {
-    let top = $(window).scrollTop();
+    var top = $(window).scrollTop();
     top >= 1000 ? $('#leftBar').show() : $('#leftBar').hide();
     $('.floor1').each(function(index, element) {
-        let loutop = $(this).offset().top;
+        var loutop = $(this).offset().top;
         if (loutop >= top) {
             $('#leftBar li').removeClass('active');
             $('#leftBar li').eq($(this).index()).addClass('active');
@@ -47,7 +47,7 @@ $(window).on('scroll', function() {
 });
 $('#leftBar li').on('click', function() {
     $(this).addClass('active').siblings().removeClass('active');
-    let loutop = $('.floor1').eq($(this).index()).offset().top;
+    var loutop = $('.floor1').eq($(this).index()).offset().top;
     $('html').animate({
         scrollTop: loutop
     });

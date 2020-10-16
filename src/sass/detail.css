@@ -58,12 +58,13 @@ body {
 .content .auto .neirong .wrap {
   position: relative;
   float: left;
-  margin-left: 10px;
 }
 
 .content .auto .neirong .wrap #spic {
   width: 400px;
   height: 400px;
+  float: left;
+  position: relative;
 }
 
 .content .auto .neirong .wrap #spic img {
@@ -112,8 +113,9 @@ body {
 
 .content .auto .neirong .wrap #ulist a {
   float: left;
-  width: 10px;
+  width: 20px;
   height: 54px;
+  font-size: 14px;
   border: 1px solid #ccc;
   text-decoration: none;
   line-height: 56px;
@@ -235,19 +237,6 @@ body {
   margin-left: 10px;
 }
 
-.content .auto .neirong .wrap .fangdahou {
-  width: 472.362px;
-  height: 422.111px;
-  top: 80px;
-  left: 430px;
-  position: absolute;
-  border: 1px solid #959595;
-  overflow: hidden;
-  z-index: 10;
-  background: plum;
-  display: none;
-}
-
 .content .auto .neirong .auto_right {
   margin-top: 70px;
   width: 225px;
@@ -354,4 +343,44 @@ body {
 
 .content .auto .neirong .auto_right ul .xia .l2 {
   margin-left: 10px;
+}
+
+.content .auto .neirong .goodsinfo-word {
+  width: 400px;
+  height: 500px;
+  float: left;
+  margin-left: 20px;
+}
+
+.content .auto .neirong .goodsinfo-word .p-name {
+  font-size: 20px;
+  width: 400px;
+  margin: 10px 0;
+}
+
+.content .auto .neirong .goodsinfo-word .p-price {
+  color: #cc0000;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 10px 0;
+}
+
+.content .auto .neirong .goodsinfo-word .p-btn input {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.content .auto .neirong .goodsinfo-word .p-btn a {
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background: #cc0000;
+  border-radius: 5px;
+  margin: 10px 0;
 }
